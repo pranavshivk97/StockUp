@@ -13,77 +13,84 @@ URL for landing page: http://localhost:8100
 ## User Interface
 
 ###### Home Page (or Landing Page)
-
 This page is the starting point of the application. Users have the option to either log in (if returning user) or register with StockUp. 
-
-![Home Page](/UI Images/Home.jpg)
+![Home](/Images/Home.JPG)
 
 ###### About 
+This page provides a brief description of the project.
+![About](/Images/About.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/About.jpg)
 ###### Contact Us
+This page enables usera to contact the creators of the application, i.e. my team members and I.
+![Contact Us](/Images/ContactUs.JPG)
 
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/ContactUs.jpg)
 ###### Register
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/SignUp.jpg)
+This page helps a new user to create an account so that he/she can get started with StockUp.
+![Sign Up](/Images/SignUp.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/SignUp_Error.jpg)
+If any error occurs while filling in the fields, the user is alerted by appropriatev message.
+![Sign Up Error](/Images/SignUp_Error.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/SignUp_Confirmation.jpg)
+Once he/she has successfully signed up, the user gets an email from the application confirming the registration.
+![Registration Confirmation](/Images/SignUp_Confirmation.JPG)
+
 ###### Login
+This page enables returning users to log in and access their account.
+![Log In](/Images/LogIn.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/LogIn.jpg)
 ###### Dashboard
+Once the user is logged in, he/she can view the dashboard, which gives the 10 stock symbols along with their real-time prices.
+![Dashboard](/Images/LoggedInPage.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/LoggedInPage.jpg)
 ###### Stocks Page
+This page provides the user with the available stock symbols (hardcoded with the stocks listed above)
+![Stocks](/Images/Stocks.JPG)
+![Stocks cont.d](/Images/Stocks2.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Stocks.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Stocks2.jpg)
 ###### Stock Profile Page
+For each stock symbol listed is a profile page that provides a brief description about each stock.
+![Stock Profile](/Images/Stocks_Desc.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Stocks_Desc.jpg)
 ###### Predict
+This page forms the main basis of the application, the predictor module. Here, a user can choose the type of prediction, long term or short term.
+![Predict](/Images/Predict.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Predict.jpg)
- ###### Long Term
-  
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/LongTerm.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/LongTerm_GOOGL.jpg)
-###### Short Term
-  
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/ShortTerm.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/ShortTerm2.jpg)
+  * Long Term
+    This page predicts the corresponding stock's price over the long term, which uses the Keras neural network.
+    ![Long Term](/Images/LongTerm.JPG)
+    
+    An example is shown below for the Google stock.
+    ![Long Term](/Images/LongTerm_GOOGL.JPG)
+    
+  * Short Term
+    This page predicts the corresponding stock's price in the short term, using the polynomial curve fitting algorithm.
+    ![Short Term](/Images/ShortTerm.JPG)
+    ![Short Term](/Images/ShortTerm2.JPG)
+    
 ###### Stock Analysis
+This page helps analyze the stock trends over the course of time, for the short term and the long term.
+![Analysis](/Images/Analysis.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Analysis.jpg)
-###### Long Term
+  * Long Term
+    ![Long Term Analysis](/Images/LongTermAnalysis.JPG)
+    ![Long Term Analysis](/Images/HistoricalRecords.JPG)
     
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/LongTermAnalysis.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/HistoricalRecords.jpg)
-###### Short Term
+  * Short Term
+    ![Short Term Analysis](/Images/ShortTermAnalysis.JPG)
     
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/ShortTermAnalysis.jpg)
-######Compare Stocks
+###### Compare Stocks
+This feature enables users to compare the trends of various stocks with the help of trends.
+![Compare Stocks](/Images/Compare_Stocks.jpg)
+![Compare Stocks](/Images/Stock_Comparison.JPG)
+![Compare Stocks](/Images/Comparison_Graph.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Compare_Stocks.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Stock_Comparison.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/Comparison_Graph.jpg)
 ###### NotifyMe
+This feature enables a user to get notified if any stock that he/she keeps track of surpasses his desired price.
+![Home Page](/Images/NotifyMe.JPG)
+![Home Page](/Images/NotifyMe2.JPG)
+![Home Page](/Images/PriceChange_Alert.JPG)
 
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/NotifyMe.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/NotifyMe2.jpg)
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/PriceChange_Alert.jpg)
 ###### Introduction Page
-
-![Home Page](https://github.com/pranavshivk97/StockUp/tree/master/UI%20Images/NewToStocks.jpg)
+Finally, we included a page that helps novices to familiarize themselves with the stocks
+![Home Page](/Images/NewtoStocks.JPG)
