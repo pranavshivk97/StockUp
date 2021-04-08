@@ -6,9 +6,9 @@ This repository contains the final project implemented for the Software Engineer
 For more details on how to implement and use the server, please refer to the ServiceDocumentation.docx file. Once the Virtual environment is created and django is installed inside the environment according to the steps in the doc file, you can just copy paste all these files into the specific folders as mentioned above and run the server from the terminal.
 This command can be run from the virtualstockenv/ folder which contains the manage.py file.
 
-Command: python manage.py runserver 8100
-URL for admin page: http://localhost:8100/admin
-URL for landing page: http://localhost:8100
+* Command: python manage.py runserver 8100
+* URL for admin page: http://localhost:8100/admin
+* URL for landing page: http://localhost:8100
 
 ## User Interface
 
