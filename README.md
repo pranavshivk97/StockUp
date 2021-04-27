@@ -50,7 +50,7 @@ This page provides the user with the available stock symbols (hardcoded with the
 
 ###### Stock Profile Page
 For each stock symbol listed is a profile page that provides a brief description about each stock.
-![Stock Profile](/Images/Stocks_Desc.JPG)
+![Stock Profile](/Images/Stock_Desc.JPG)
 
 ###### Predict
 This page forms the main basis of the application, the predictor module. Here, a user can choose the type of prediction, long term or short term.
@@ -81,7 +81,7 @@ This page helps analyze the stock trends over the course of time, for the short 
     
 ###### Compare Stocks
 This feature enables users to compare the trends of various stocks with the help of trends.
-![Compare Stocks](/Images/Compare_Stocks.jpg)
+![Compare Stocks](/Images/Compare_Stocks.JPG)
 ![Compare Stocks](/Images/Stock_Comparison.JPG)
 ![Compare Stocks](/Images/Comparison_Graph.JPG)
 
