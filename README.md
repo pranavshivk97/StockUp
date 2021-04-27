@@ -61,7 +61,7 @@ This page forms the main basis of the application, the predictor module. Here, a
     ![Long Term](/Images/LongTerm.JPG)
     
     An example is shown below for the Google stock.
-    ![Long Term](/Images/LongTerm_GOOGL.JPG)
+    ![Long Term](/Images/LongTerm-GOOGL.JPG)
     
   * Short Term
     This page predicts the corresponding stock's price in the short term, using the polynomial curve fitting algorithm.
